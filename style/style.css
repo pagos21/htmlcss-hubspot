@@ -28,6 +28,7 @@
 }
 
 /* LOCAL RULES */
+/* navber */
 
 #fixed{
   position: fixed;
@@ -45,9 +46,18 @@
   width: 100%;
 }
 
+/* HEADER */
+
 .h_big{
   background-color: #ffad33;
   height: 400px;
+}
+
+.subc_h{
+
+  background-color: white;
+  height: 80%;
+  width: 35%;
 }
 
 /* MAIN */
@@ -101,9 +111,34 @@ main > *{
 .smerald{
   margin-bottom: 0;
   background-image: linear-gradient(-90deg, lightgreen, lightblue);
-  height: 800px;
+  height: 1100px;
 }
 
+.smerald_top{
+  text-align: center;
+  margin: 0 10%;
+  width: 80%;
+  background-color: white;
+  height: 80px;
+}
+
+.simil_table{
+  margin-top: 4%;
+  height: 500px;
+}
+
+.emerald-row{
+  background-color: grey;
+  height: 250px;
+}
+
+.emerald_col{
+  border: 2px solid black;
+  float: left;
+  width: 25%;
+  background-color: green;
+  height: 250px;
+}
 
 /* GENERIC INGO PART */
 
@@ -111,7 +146,12 @@ main > *{
   padding-top: 0;
   background-color: green;
   height: 700px;
+}
 
+.info_num{
+  height: 228px;
+  background-color: white;
+  width: 25%;
 }
 
 /* FOOTER */
