@@ -362,7 +362,7 @@ main .m_csr img{
 }
 
 .info_num{
-  padding: 4%;
+  margin: 3%;
   display: inline-block;
   /* height: 228px; */
   /* background-color: white; */
@@ -374,7 +374,7 @@ main .m_csr img{
   float: right;
   /* height: 128px; */
   /* background-color: white; */
-  /* width: 55%; */
+  width: 41%;
 }
 
 .info_bottom{
