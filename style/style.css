@@ -12,6 +12,7 @@
 }
 
 .orangeb{
+  text-decoration: none;
   border-radius: 10px;
   padding: 7px;
   background-color: orange;
@@ -26,6 +27,7 @@
 }
 
 .orangeb1{
+  text-decoration: none;
   border-radius: 10px;
   padding: 20px;
   background-color: orange;
@@ -58,6 +60,10 @@ ul li a{
 }
 
 ul li a:hover{
+  text-decoration: underline;
+}
+
+a:hover{
   text-decoration: underline;
 }
 
@@ -404,21 +410,55 @@ line-height: 7;
 /* FOOTER */
 
 footer{
-  background-color: darkblue;
-  height: 600px;
+  background-color: #467b99;
+  /* height: 600px; */
 }
 
 .footer_row{
-  background-color: white;
-  height: 300px;
+  margin-top: 4%;
+  /* background-color: white; */
+  /* height: 300px; */
+}
+
+.footer_row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .footer_col{
   margin: 0 3%;
   float: left;
-  background-color: purple;
+  /* background-color: purple; */
   width: 19%;
-  height: 300px;
+  /* height: 300px; */
+  line-height: 3;
+}
+
+.footer_col_5{
+  text-align: center;
+  margin: 0 1%;
+  float: left;
+  /* background-color: purple; */
+  width: 18%;
+  /* height: 300px; */
+  /* line-height: 3; */
+}
+
+.footer_col >*:first-child{
+  color: white;
+  font-weight: bold;
+}
+
+.footer_col a{
+  text-decoration: none;
+  color: white;
+}
+
+.a_footer{
+  background-color: grey;
+  padding: 5%;
+  border-radius: 10px;
 }
 
 .lang{
@@ -435,21 +475,26 @@ footer{
   display: inline-block;
 }
 
-/* .lang ul li a{
+.lang ul li a{
   color: white;
-  text-decoration: none;
-} */
-
-.footer_bottom{
-  display: inline-block;
-  background-color: white;
-  width: 40%;
-  height: 100px;
+  /* text-decoration: none; */
 }
 
-.footer_bottom2{
-  float: right;
+.footer_bottom{
+  color: white;
+  display: inline-block;
+  /* background-color: white; */
   width: 40%;
-  height: 100px;
-  background-color: white;
+  /* height: 100px; */
+}
+
+.footer_bottom2, .footer_bottom2 a{
+  /* padding: 1%; */
+  text-decoration: none;
+  color: white;
+  text-align: right;
+  float: right;
+  width: 30%;
+  /* height: 100px; */
+  /* background-color: white; */
 }
