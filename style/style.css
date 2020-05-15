@@ -106,9 +106,10 @@ ul li a:hover{
 }
 
 .nav1_r{
+  text-align: right;
   float: right;
   /* background-color: white; */
-  width: 36%;
+  width: 90%;
   height: 40px;
 }
 
@@ -185,39 +186,15 @@ main .m_csr img{
 
 /* 3 COL PART */
 
+.row{
+  /* background-color: purple; */
+  /* height: 600px; */
+}
 
 .row::after {
   content: "";
   display: table;
   clear: both;
-}
-
-.col-img{
-  text-align: center;
-  height: 60%;
-  background-color: white;
-}
-
-.col-img img{
-  width: 100px;
-  height: 100px;
-  margin-bottom: 20px;
-}
-
-.col-img{
-  padding: 20px;
-}
-
-.col .col_checkbox{
-  text-align: center;
-  height: 40%;
-  background-color: white;
-  margin: 0 10%;
-  border-top: solid 1px black;
-}
-
-.col_checkbox ul{
-  text-align: left;
 }
 
 .col_csr{
@@ -244,26 +221,48 @@ main .m_csr img{
   display: inline-block;
   width: 10%;
 }
-/* MAIN - 3 COL PART */
 
-.row{
-  background-color: purple;
-  height: 600px;
+.col-img{
+  text-align: center;
+  height: 60%;
+  background-color: white;
 }
 
-.s_col{
+.col-img img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.col-img{
+  padding: 20px;
+}
+
+.col .col_checkbox{
+  text-align: center;
+  height: 40%;
+  background-color: white;
+  margin: 4% 10%;
+  border-top: solid 1px black;
+}
+
+.col_checkbox ul{
+  text-align: left;
+}
+
+
+/* .s_col{
   background-color: green;
   margin: 1%;
   height: 100px;
-}
+} */
 
 .col{
   float: left;
   width: 30%;
   /* margin: 0 1%; */
-  background-color: green;
-  height: 600px;
-
+  background-color: white;
+  /* height: 600px; */
 }
 
 .row .col:nth-child(2){
@@ -274,35 +273,77 @@ main .m_csr img{
 /* SILIM TABLE PART */
 
 .smerald{
+  padding-bottom: 7%;
   margin-bottom: 0;
   background-image: linear-gradient(-90deg, lightgreen, lightblue);
-  height: 1100px;
+}
+
+.smerald::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .smerald_top{
+  padding: 1%;
   text-align: center;
   margin: 0 10%;
   width: 80%;
-  background-color: white;
-  height: 80px;
+  /* background-color: white; */
+  /* height: 80px; */
 }
 
 .simil_table{
   margin-top: 4%;
-  height: 500px;
+  /* height: 500px; */
 }
 
 .emerald-row{
-  background-color: grey;
-  height: 250px;
+  color: white;
+  text-align: center;
+  /* background-color: grey; */
+  /* height: 250px; */
+}
+
+.emerald-row2{
+  color: white;
+  text-align: center;
+  /* background-color: grey; */
+  /* height: 250px; */
 }
 
 .emerald_col{
-  border: 2px solid black;
+  padding: 4% 0;
   float: left;
   width: 25%;
-  background-color: green;
-  height: 250px;
+  /* background-color: green; */
+  /* height: 250px; */
+}
+
+.emerald-row .emerald_col:nth-child(2){
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.emerald-row .emerald_col:nth-child(3){
+  border-right: 1px solid black;
+}
+
+.emerald-row2 .emerald_col:nth-child(2){
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.emerald-row2 .emerald_col:nth-child(3){
+  border-right: 1px solid black;
+}
+
+.emerald-row .emerald_col:nth-child(n+1):nth-child(-n+4){
+  border-bottom: 0.5px solid black;
+}
+
+.emerald-row2 .emerald_col:nth-child(n+1):nth-child(-n+4){
+  border-bottom: 0;
 }
 
 /* GENERIC INFO PART */
