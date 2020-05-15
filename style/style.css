@@ -349,41 +349,57 @@ main .m_csr img{
 /* GENERIC INFO PART */
 
 .info_c{
+  margin-bottom: 4%;
   /* padding-top: 35px; */
-  background-color: green;
-  height: 700px;
+  /* background-color: green; */
+  /* height: 700px; */
 }
 
 .info_num{
+  padding: 4%;
   display: inline-block;
-  height: 228px;
-  background-color: white;
-  width: 55%;
+  /* height: 228px; */
+  /* background-color: white; */
+  /* width: 25%; */
 }
 
 .info_sponsor{
-  margin: 40px auto;
+  /* margin: 40px auto; */
   float: right;
-  height: 128px;
-  background-color: white;
-  width: 25%;
+  /* height: 128px; */
+  /* background-color: white; */
+  /* width: 55%; */
 }
 
 .info_bottom{
   display: inline-block;
-  margin: 40px 0;
+  padding: 4% 0;
   height: 250px;
   background-color: white;
   width: 60%;
 }
 
+.info_bottom a{
+line-height: 7;
+}
+
+.info_bottom p:last-child{
+  line-height: 3;
+}
+
 .info_pic{
   margin: 40px auto;
   float: right;
-  height: 250px;
-  background-color: white;
-  width: 35%;
+  /* height: 250px; */
+  /* background-color: white; */
+  width: 20%;
 }
+
+.info_pic img{
+  width: 100%;
+}
+
+
 
 /* FOOTER */
 
