@@ -183,6 +183,43 @@ main .m_csr img{
 }
 
 
+/* 3 COL PART */
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-img{
+  text-align: center;
+  height: 60%;
+  background-color: white;
+}
+
+.col-img img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.col-img{
+  padding: 20px;
+}
+
+.col .col_checkbox{
+  text-align: center;
+  height: 40%;
+  background-color: white;
+  margin: 0 10%;
+  border-top: solid 1px black;
+}
+
+.col_checkbox ul{
+  text-align: left;
+}
+
 .col_csr{
   text-align: center;
   float: left;
