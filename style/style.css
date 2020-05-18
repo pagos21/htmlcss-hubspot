@@ -56,16 +56,28 @@ ul li{
   display: inline-block;
 }
 
-ul li a{
+nav ul li a, .nav1 ul li a{
   color: #757575;
   font-size: 15px;
   text-decoration: none;
-
 }
 
-ul li a:hover{
+/* .fixed_l ul li a:hover, .fixed_buttons ul li a:hover, .nav1_r a:hover{
+  text-decoration: none;
+} */
+
+/* ul li a:hover{
   text-decoration: underline;
+} */
+
+footer * a, footer ul li a{
+  text-decoration: none;
 }
+
+footer * a:hover, footer ul li a:hover{
+  color: #00d9e8;
+}
+
 
 /* a:hover{
   text-decoration: underline;
@@ -345,18 +357,18 @@ footer{
 
 .footer_col_5{
   text-align: center;
-  margin: 0 1%;
+  margin: 0 1.4%;
   float: left;
-  width: 18%;
+  width: 17%;
 }
 
 .footer_col >*:first-child{
   color: white;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .footer_col a{
-  text-decoration: none;
   color: white;
 }
 
@@ -394,4 +406,8 @@ footer{
   text-align: right;
   float: right;
   width: 30%;
+}
+
+.footer_col .a_footer{
+  color: white;
 }
