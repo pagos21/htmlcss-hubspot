@@ -17,7 +17,14 @@
     <nav id="fixed" class="arr">
       <div class="fixed_l">
         <ul>
-          <li><a href="#"><i class="fa fa-globe"></i> English &#x25BC;</a></li>
+          <div class="dropdown">
+          <li class="dropbtn"><i class="fa fa-globe"></i> English &#x25BC;</li>
+            <div class="dropdown-content">
+              <a href="English">English</a>
+              <a href="Italian">Italian</a>
+              <a href="Spanish">Spanish</a>
+            </div>
+          </div>
           <li> | </li>
           <li><a href="#">Contact Us</a></li>
         </ul>
@@ -25,7 +32,7 @@
 
       <div class="fixed_buttons">
         <ul>
-          <a href="#"><li><i class="fa fa-search" style="color:blue"></i></li></a>
+          <li><input id="search" type="search" placeholder="Search..." ><i class="fa fa-search" style="color:blue"></i></li>
           <li><a class="orangeb0" href="#">LOG-IN</a></li>
           <li><a class="orangeb" href="#">gethub4free</a></li>
         </ul>
@@ -33,7 +40,7 @@
     </nav>
 
     <!-- MACRO CONTAINER -->
-  <div id="container">
+  <div class="container">
     <header>
 
 
@@ -42,11 +49,43 @@
         <a href="#"><img src="img/logo.svg" alt=""></a>
         <div class="nav1_r">
           <ul>
-            <li><a href="#">Software &#x25BC;</a></li>
+            <div class="dropdown">
+            <li class="dropbtn"> Software &#x25BC;</li>
+              <div class="dropdown-content">
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+              </div>
+            </div>
+
             <li><a href="#">Pricing </a></li>
-            <li><a href="#">Resources &#x25BC;</a></li>
-            <li><a href="#">Partners &#x25BC;</a></li>
-            <li><a href="#">About &#x25BC;</a></li>
+
+            <div class="dropdown">
+            <li class="dropbtn"> Resources &#x25BC;</li>
+              <div class="dropdown-content">
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+            <li class="dropbtn"> Partners &#x25BC;</li>
+              <div class="dropdown-content">
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+            <li class="dropbtn"> About &#x25BC;</li>
+              <div class="dropdown-content">
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+              </div>
+            </div>
 
           </ul>
         </div>
