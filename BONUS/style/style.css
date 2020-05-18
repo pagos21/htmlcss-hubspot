@@ -168,13 +168,18 @@ p{
 }
 
 .subc_h{
+  float: left;
   width: 36%;
 }
 
 .subc_h a{
   padding: 15px;
   font-size: 20px;
+}
 
+.homer{
+  float: right;
+z-index: 100;
 }
 
 /* MAIN */
@@ -387,7 +392,6 @@ line-height: 7;
 
 footer{
   font-size: 1vw;
-
   background-color: #467b99;
 }
 
