@@ -377,6 +377,7 @@ main .m_csr img{
 .info_sponsor{
   float: right;
   width: 41%;
+  margin-bottom: 1%;
 }
 
 .info_bottom{
