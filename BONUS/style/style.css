@@ -192,7 +192,7 @@ main > *{
   transition: width 2s, height 2s, transform 2s;
 }
 
-.main_top img:hover{
+.main_top:hover img{
   width: 40%;
   transform: rotate(360deg);
 }
